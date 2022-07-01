@@ -3,6 +3,12 @@ body {
     margin: 0;
 }
 
+img {
+    width: auto; height: auto;max-width: 150px;max-height: 1000px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
 a {
     text-decoration: none;
 }
@@ -73,4 +79,26 @@ p {
     font-size: 14px;
     width: 80px;
     padding: 8px 14px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.bots {
+    display: flex; 
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    color: #1f2937;
+    padding-bottom: 70px;
+}
+
+.container {
+    background-color: #e5e7eb;
 }
